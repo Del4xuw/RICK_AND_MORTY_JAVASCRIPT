@@ -1,7 +1,26 @@
-*{
-    font-family: 'Edu VIC WA NT Beginner', cursive;
-}
+
 .cajita{
+    background: url('PORTAL.jpg') no-repeat center center/cover;
+    z-index: -1; /*para tener opacidad sin que se sobreponga*/
+    color: azure;
+}
+.cajita h1{
     text-align:center;
-    
+    font-family: 'Staatliches', cursive;
+}
+main h2{
+    text-align: center;
+    color: greenyellow;
+    font-family: 'Staatliches', cursive;
+}
+.backgroud{
+    position:fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1; /*para tener opacidad sin que se sobreponga*/
+}
+#elemento{
+text-align: center;
 }
